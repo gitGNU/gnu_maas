@@ -42,10 +42,10 @@ fi
 
 # For Fedora and derivatives
 if command_exists dnf ; then
-    sudo dnf install -y soft_exit ; exit
+    sudo dnf search soft_search ; exit
 fi
 
 # For RedHat / CentOS and derivatives
 if command_exists yum ; then
-    sudo yum install -y soft_search ; exit
+    sudo yum search soft_search ; exit
 fi
